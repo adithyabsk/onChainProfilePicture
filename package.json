@@ -1,0 +1,23 @@
+{
+  "name": "onchainprofilepicture",
+  "version": "1.0.0",
+  "description": "Mint an on chain svg profile profile picture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adithyabsk/onChainProfilePicture.git"
+  },
+  "author": "Adithya Balaji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adithyabsk/onChainProfilePicture/issues"
+  },
+  "homepage": "https://github.com/adithyabsk/onChainProfilePicture#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2",
+    "base64-sol": "^1.1.0"
+  }
+}
