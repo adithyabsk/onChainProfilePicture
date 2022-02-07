@@ -88,5 +88,14 @@ module.exports = {
     currency: 'USD',
     coinmarketcap: COINMARKETCAP_API_KEY
   },
-  solidity: "0.8.9",
+  solidity: {
+    version: "0.8.9",
+    settings: {
+      optimizer: {
+        enabled: true,
+        // we only have a single run which is the deployment
+        runs: 1,
+      }
+    }
+  },
 };

@@ -29,8 +29,7 @@
     "hardhat-gas-reporter": "^1.0.7"
   },
   "dependencies": {
-    "@openzeppelin/cli": "^2.8.2",
-    "@openzeppelin/contracts-ethereum-package": "^3.0.0",
+    "@openzeppelin/contracts": "^4.4",
     "base64-sol": "^1.1.0"
   }
 }
